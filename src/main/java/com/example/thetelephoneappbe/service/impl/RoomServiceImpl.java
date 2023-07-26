@@ -11,6 +11,7 @@ import java.util.List;
 
 @Service
 public class RoomServiceImpl implements RoomService {
+    @Autowired
     private RoomRepository roomRepository;
 
     @Autowired
