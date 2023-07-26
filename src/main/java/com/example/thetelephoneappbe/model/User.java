@@ -15,7 +15,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_user")
     private Long id;
-    @Column(name = "nickname")
+    @Column(name = "nickname",unique = true)
     private String nickname;
     @Column(name = "image")
     private String id_image;
